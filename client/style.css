@@ -1,4 +1,46 @@
-body {
-    background-color: black;
-    color: white;
+.body {
+    background-color: #80D992;
+    color: black;
+    font-family:Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.main {
+    background-color: aliceblue;
+    
+}
+
+.header {
+    background-color: #337D42;
+}
+
+.menu {
+    color: black;
+}
+
+.menu a{
+    background: #9CB3B8;
+    color: black;
+}
+
+.menu li{
+    display: inline;
+} 
+
+#h1 {
+    color: #003BAF;
+}
+
+#h2 a{
+    color: #2EB6D1;
+}
+a{ text-decoration: none;}
+
+.footer {
+    color: black;
+}
+
+.footer a{
+    color: black;
 }
