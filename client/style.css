@@ -2,17 +2,25 @@
     background-color: #80D992;
     color: black;
     font-family:Arial, sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     line-height: 1.5;
+    max-width: 1080px;
+    margin: auto;
+}
+
+p {
+    padding: 15px 30px 15px 30px;
+ 
 }
 
 .main {
     background-color: aliceblue;
-    
+    border: 3px solid black;
+
 }
 
 .header {
-    background-color: #337D42;
+    background-color: #B3B5B5;
 }
 
 .menu {
@@ -20,8 +28,11 @@
 }
 
 .menu a{
-    background: #9CB3B8;
-    color: black;
+    color: #003BAF;
+}
+
+a:hover {
+    background-color: greenyellow;
 }
 
 .menu li{
@@ -30,14 +41,17 @@
 
 #h1 {
     color: #003BAF;
+    text-align: center;
 }
 
 #h2 a{
     color: #2EB6D1;
+    padding-left: 15px;
 }
 a{ text-decoration: none;}
 
 .footer {
+    background-color: #B3B5B5;
     color: black;
 }
 
