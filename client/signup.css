@@ -4,7 +4,7 @@
     font-family:Arial, sans-serif;
     font-size: 13px;
     margin: auto;
-    max-width: 350px;
+    width: 350px;
 }
 
 .main{
@@ -12,4 +12,20 @@
     background-color: gainsboro;
     padding: 0 20px 15px 20px;
     border: 2px solid #003BAF;
+}
+
+input{ border: 2px solid grey; padding: 5px;}
+input:focus{ background: lightyellow; border-color: blue; outline: none;}
+
+
+.footer{ 
+    position: relative;
+    border: 2px solid grey; padding: 5px;
+    animation: bouncing 0.5s cubic-bezier(0.1,0.25,0.1,1) 0s infinite alternate both;
+}
+
+
+@keyframes bouncing{
+  0%  { bottom: 0; box-shadow: 0 0 5px rgba(0,0,0,0.5);}
+  100%{ bottom: 50px; box-shadow: 0 50px 50px rgba(0,0,0,0.1);}
 }

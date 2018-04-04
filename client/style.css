@@ -4,7 +4,7 @@
     font-family:Arial, sans-serif;
     font-size: 13px;
     line-height: 1.5;
-    max-width: 1080px;
+    width: 1080px;
     margin: auto;
 }
 
@@ -16,6 +16,7 @@ p {
 .main {
     background-color: aliceblue;
     border: 3px solid black;
+    background-image: linear-gradient(#B3B5B5 10%,aliceblue 90%);
 
 }
 
@@ -53,6 +54,7 @@ a{ text-decoration: none;}
 .footer {
     background-color: #B3B5B5;
     color: black;
+    background-image: linear-gradient(0deg, #B3B5B5 10%,aliceblue 90%);
 }
 
 .footer a{
